@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Bonhomme - Developer</title>
+        <title>Rafael - Developer</title>
       </Head>
       <Cursor />
 
@@ -21,16 +21,16 @@ export default function Home() {
           <GridItem colSpan={3}>
             <Box>
               <Heading as="h1" size="lg">
-                Maxime Bonhomme
+                Rafael Tibudan
               </Heading>
-              <Text>Product-focused Developer</Text>
-              <Link
+              <Text>Software Developer</Text>
+              {/* <Link
                 color="white"
                 opacity={0.5}
                 href="https://etherscan.io/address/0xff5fe6e0d3d48c90a66217dd4a7560a3ed8dacd2"
               >
                 bonhomme.eth
-              </Link>
+              </Link> */}
             </Box>
           </GridItem>
         </Grid>
@@ -39,9 +39,7 @@ export default function Home() {
             About
           </Heading>
           <Text>
-            GM, I'm Max. I enjoy building dynamic, creative products from start to
-            finish. Focused on developing intuitive experiences that constantly grow and
-            improve based on user metrics. Always shipping.
+            Hi, I'm Rafael. I am a passionate software developer with over two years of experience creating innovative mobile and web applications, specializing in Flutter, Vue.js, and backend solutions like Firebase and Laravel. My projects range from AI-powered rice disease detection and real-time COVID-19 tracking to offline-first POS systems and a Filipino Language Chatbot. With a focus on driving impact through efficiency and user-centered design, I aim to build scalable tech solutions that address real-world challenges, particularly in the Philippines.
           </Text>
         </Box>
         <Box mb={14}>
@@ -50,40 +48,60 @@ export default function Home() {
           </Heading>
 
           <Experience
-            href="https://iyk.app"
-            side="2022 - present"
-            title="Senior Frontend Engineer – IYK"
-            desc="Building the Whole Wide World﹡"
-            stack="Remix • Prisma • Tailwind • Shadcn"
+            href="https://www.jarvisanalytics.com/"
+            side="2024 - Ongoing"
+            title="Jarvis Analytics - Frontend Developer"
+            desc="Dental Dashboard and Data Analytics Platform"
+            stack="Laravel • VueJS • AngularJS"
           />
           <Experience
-            href="https://everpress.com/"
-            side="2020 - 2022"
-            title="Full Stack & Technical Lead – Everpress"
-            desc="Led a team of 5 engineers to develop our creator tools and e-commerce
-        app. Collaborated closely with the Head of Product to track our tactical
-        objectives, improve technical directions and shipping frequency."
-            stack="React • Redux • Symfony • AWS"
+            href=" https://play.google.com/store/apps/details?id=com.ecitizenph.mobile&hl=en"
+            side="2023 - Ongoing"
+            title="Ecitizen - Software Engineer"
+            desc="Disaster Preparedness Platofrm"
+            stack="Android • iOS • Flutter • Laravel • Google Maps"
           />
           <Experience
-            side="2016 – 2020"
-            title="Front End Engineer – Freelance"
-            desc="Worked with a range of large and small agencies, start-ups and individuals to build products. Clients included Marvel App, United Nations, Netflix, Dropbox Design."
-            stack="React • Redux • Styled Components • Framer Motion"
+            href="http://www.ibayad.com"
+            side="2023 - Ongoing"
+            title="Ibayad - Software Engineer"
+            desc="Financial Platform"
+            stack="Android • iOS • Flutter • Swift • Java"
           />
           <Experience
-            href="https://neverbland.com/"
-            side="2014 – 2016"
-            title="Front End Engineer – Neverbland"
-            desc="Part of a tight-knit team of designers, developers and critical thinkers, I built MVP products and marketing experiences for start-ups."
-            stack="React • Redux • CSSModules • Three.js"
+            href="https://pic-a-talk.com"
+            side="2023"
+            title="Software Developer – Pic-A-Talk"
+            desc="Frontend Mobile Developer at Pic-a-Talk Adobokashi Inc., engineered and launched major Flutter app features, optimized state management with BLoC and Provider, integrated REST APIs with AWS services, and reduced data latency by 60% through infrastructure migration from Heroku to AWS."
+            stack="Flutter • Firebase • Django • AWS"
+          />
+          <Experience
+            href="https://msuiit.edu.ph"
+            side="2023"
+            title="Research Assistant – MSU Iligan Institute of Technology"
+            desc="Research Assistant at MSU-IIT, developed a Flutter-based app for the Reversed Vending Machine project with Google Maps integration and Firebase backend, enabling recycling point tracking for 500+ users while reducing server costs by 40%."
+            stack="Python • Object Detection • Firebase • Flutter • Google Maps"
+          />
+          <Experience
+            href="https://msuiit.edu.ph"
+            side="2022 – 2023"
+            title="Computer Programmer 1 - MSU Iligan Institute of Technology"
+            desc="Computer Programmer at MSU-IIT, developed and deployed the cross-platform my.Eskwela app with Flutter and Flask, boosting student engagement by 40% and parent involvement by 25%, and implemented in-app messaging to increase parent-teacher interactions by 60%."
+            stack="Flutter • JQuery • Flask • PubNub"
+          />
+          <Experience
+            href="https://www.jarvisanalytics.com/"
+            side="2020"
+            title="Jarvis Analytics - Frontend Intern"
+            desc="Software Engineering Intern at Jarvis Analytics, led a team to develop a real-time COVID-19 tracking web app using Vue.js and Laravel, improving data accuracy by 95% and reducing manual update time by 90% through API integration."
+            stack="Laravel • VueJS • AngularJS"
           />
 
           <Heading as="h2" size="md" mt={14} mb={10}>
             Side Projects
           </Heading>
 
-          <Experience
+          {/* <Experience
             href="https://www.instagram.com/dolenn.bzh"
             image="/dolenn-single.png"
             side="ongoing"
@@ -98,21 +116,13 @@ export default function Home() {
             title="Offline Nostalgia"
             desc="Generative art project around the offline era. Physical mint."
             stack="Solidity • IYK Chips • fully onchain"
-          />
+          /> */}
           <Experience
-            image="/tamiko.svg"
-            side="Paused"
-            title="Tamiko"
-            desc="Tamiko are non-fungible friends that live completely on-chain. You can hatch, feed, breed and evolve them."
-            stack="Solidity • ERC721 • ERC1155 • Next.js"
-          />
-          <Experience
-            href="https://kineticspectru.ms/"
-            image="/kineticspectrum.png"
+            // image="/tamiko.svg"
             side="2022"
-            title="Kinetic Spectrums"
-            desc="Generative on-chain NFTs. A collection of dynamic, ever changing artworks."
-            stack="Solidity • ERC721 • Next.js"
+            title="Rice Disease Identification App"
+            desc="Developed a Flutter-based mobile app using MobileNet to identify rice diseases, achieving 89% accuracy and 85% user satisfaction among farmers."
+            stack="Flutter • Tensorflow • Tensorflow lite"
           />
 
           <Heading as="h2" size="md" mt={14} mb={10}>
@@ -121,28 +131,28 @@ export default function Home() {
 
           <Experience
             side="Github"
-            title="@maximebonhomme"
-            href="https://github.com/maximebonhomme"
+            title="@r123198"
+            href="https://github.com/r123198"
             mb={4}
           />
-          <Experience
+          {/* <Experience
             side="Etherscan"
             title="bonhomme.eth"
             href="https://etherscan.io/address/0xff5fe6e0d3d48c90a66217dd4a7560a3ed8dacd2"
             mb={4}
-          />
-          <Experience
+          /> */}
+          {/* <Experience
             side="Foundation"
             title="@bonhomme"
             href="https://foundation.app/@bonhomme?tab=owned"
             mb={4}
-          />
-          <Experience
+          /> */}
+          {/* <Experience
             side="Twitter"
             title="@pixel_arts"
             href="https://twitter.com/pixel_arts"
             mb={4}
-          />
+          /> */}
         </Box>
       </Box>
     </>
