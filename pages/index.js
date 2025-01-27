@@ -78,21 +78,21 @@ export default function Home() {
           <Experience
             href="https://pic-a-talk.com"
             side="2023"
-            title="Software Developer – Pic-A-Talk"
+            title="Pic-A-Talk - Software Developer"
             desc="Frontend Mobile Developer at Pic-a-Talk Adobokashi Inc., engineered and launched major Flutter app features, optimized state management with BLoC and Provider, integrated REST APIs with AWS services, and reduced data latency by 60% through infrastructure migration from Heroku to AWS."
             stack="Flutter • Firebase • Django • AWS"
           />
           <Experience
             href="https://msuiit.edu.ph"
             side="2023"
-            title="Research Assistant – MSU Iligan Institute of Technology"
+            title="MSU Iligan Institute of Technology - Research Assistant"
             desc="Research Assistant at MSU-IIT, developed a Flutter-based app for the Reversed Vending Machine project with Google Maps integration and Firebase backend, enabling recycling point tracking for 500+ users while reducing server costs by 40%."
             stack="Python • Object Detection • Firebase • Flutter • Google Maps"
           />
           <Experience
             href="https://msuiit.edu.ph"
             side="2022 – 2023"
-            title="Computer Programmer 1 - MSU Iligan Institute of Technology"
+            title="MSU Iligan Institute of Technology - Computer Programmer 1"
             desc="Computer Programmer at MSU-IIT, developed and deployed the cross-platform my.Eskwela app with Flutter and Flask, boosting student engagement by 40% and parent involvement by 25%, and implemented in-app messaging to increase parent-teacher interactions by 60%."
             stack="Flutter • JQuery • Flask • PubNub"
           />
