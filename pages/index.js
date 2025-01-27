@@ -58,7 +58,7 @@ export default function Home() {
             href=" https://play.google.com/store/apps/details?id=com.ecitizenph.mobile&hl=en"
             side="2023 - Ongoing"
             title="Ecitizen - Software Engineer"
-            desc="Disaster Preparedness Platofrm"
+            desc="Disaster Preparedness Platform"
             stack="Android • iOS • Flutter • Laravel • Google Maps"
           />
           <Experience
@@ -67,6 +67,13 @@ export default function Home() {
             title="Ibayad - Software Engineer"
             desc="Financial Platform"
             stack="Android • iOS • Flutter • Swift • Java"
+          />
+          <Experience
+            href="https://www.webfuelagency.com/services/"
+            side="2023"
+            title="Web Fuel Agency - Software Engineer"
+            desc="Education Platform"
+            stack="Android • iOS • Flutter • Swift • Java • AI Integration"
           />
           <Experience
             href="https://pic-a-talk.com"
