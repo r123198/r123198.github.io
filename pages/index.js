@@ -125,6 +125,14 @@ export default function Home() {
             stack="Solidity • IYK Chips • fully onchain"
           /> */}
           <Experience
+            image="/offline.gif"
+            href="https://drive.google.com/file/d/1QF5yAqg0mLot79paoj6csbZdCcDkxX8x/view?usp=sharing"
+            side="2022"
+            title="TB Heal: A Monitoring Application for TB Patients"
+            desc="Developed a mobile application for monitoring patients with Tuberculosis."
+            stack="Android • Flutter • Java • Firebase"
+          />
+          <Experience
             image="/offline-favicon.png"
             href="https://github.com/Rafael-main/PARKING_SYSTEM"
             side="2023"
