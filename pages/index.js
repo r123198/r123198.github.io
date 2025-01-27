@@ -56,7 +56,7 @@ export default function Home() {
           />
           <Experience
             href=" https://play.google.com/store/apps/details?id=com.ecitizenph.mobile&hl=en"
-            side="2023 - Ongoing"
+            side="2024 - Ongoing"
             title="Ecitizen - Software Engineer"
             desc="Disaster Preparedness Platform"
             stack="Android • iOS • Flutter • Laravel • Google Maps"
@@ -125,7 +125,16 @@ export default function Home() {
             stack="Solidity • IYK Chips • fully onchain"
           /> */}
           <Experience
-            // image="/tamiko.svg"
+            image="/offline-favicon.png"
+            href="https://github.com/Rafael-main/PARKING_SYSTEM"
+            side="2023"
+            title="Parking System with Image Processing"
+            desc="Developed a parking system implemented with an ESP-32 built-in camera integrated with Python for Image Processing."
+            stack="Python • OpenCV • Arduino • ESP-32"
+          />
+          <Experience
+            image="/tamiko.svg"
+            href="https://github.com/Rafael-main/Rice-Disease-Detection-App"
             side="2022"
             title="Rice Disease Identification App"
             desc="Developed a Flutter-based mobile app using MobileNet to identify rice diseases, achieving 89% accuracy and 85% user satisfaction among farmers."
