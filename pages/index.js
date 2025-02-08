@@ -49,31 +49,31 @@ export default function Home() {
 
           <Experience
             href="https://www.jarvisanalytics.com/"
-            side="2024 - Ongoing"
+            side="2024"
             title="Jarvis Analytics - Frontend Developer"
             desc="Dental Dashboard and Data Analytics Platform"
             stack="Laravel • VueJS • AngularJS"
           />
           <Experience
             href=" https://play.google.com/store/apps/details?id=com.ecitizenph.mobile&hl=en"
-            side="2024 - Ongoing"
+            side="2024"
             title="Ecitizen - Software Engineer"
             desc="Disaster Preparedness Platform"
             stack="Android • iOS • Flutter • Laravel • Google Maps"
           />
           <Experience
-            href="http://www.ibayad.com"
-            side="2023 - Ongoing"
-            title="Ibayad - Software Engineer"
-            desc="Financial Platform"
-            stack="Android • iOS • Flutter • Swift • Java"
-          />
-          <Experience
             href="https://www.webfuelagency.com/services/"
-            side="2023"
+            side="2024"
             title="Web Fuel Agency - Software Engineer"
             desc="Education Platform"
             stack="Android • iOS • Flutter • Swift • Java • AI Integration"
+          />
+          <Experience
+            href="http://www.ibayad.com"
+            side="2023"
+            title="Ibayad - Software Engineer"
+            desc="Financial Platform"
+            stack="Android • iOS • Flutter • Swift • Java"
           />
           <Experience
             href="https://pic-a-talk.com"
@@ -141,7 +141,7 @@ export default function Home() {
             stack="Python • OpenCV • Arduino • ESP-32"
           />
           <Experience
-            image="/tamiko.svg"
+            image="/offline.gif"
             href="https://github.com/Rafael-main/Rice-Disease-Detection-App"
             side="2022"
             title="Rice Disease Identification App"
@@ -157,6 +157,12 @@ export default function Home() {
             side="Github"
             title="@r123198"
             href="https://github.com/r123198"
+            mb={4}
+          />
+          <Experience
+            side="LinkedIn"
+            title="Rafael Tibudan"
+            href="https://www.linkedin.com/in/rafael-tibudan/"
             mb={4}
           />
           {/* <Experience
