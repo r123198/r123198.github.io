@@ -2,8 +2,8 @@
 const nextConfig = {
   output: 'export',
   reactStrictMode: true,
-  basePath: process.env.NODE_ENV === 'production' ? '/rafael-2025' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/rafael-2025/' : '',
+  basePath: '',
+  assetPrefix: '',
   images: {
     unoptimized: true,
   },

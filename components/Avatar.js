@@ -71,7 +71,7 @@ export const Avatar = () => {
           <Image
             borderRadius="full"
             width={{ base: "80%", lg: "full" }}
-            src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX || ""}/meme.png`}
+            src="/meme.png"
             alt="Rafael"
           />
         </Flex>

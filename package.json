@@ -2,7 +2,7 @@
   "name": "nextstarter",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://rafaeladriantibudan.github.io/rafael-2025",
+  "homepage": "https://r123198.github.io/",
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
