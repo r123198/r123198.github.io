@@ -44,7 +44,7 @@ export const Avatar = () => {
         }}
       >
         <Flex alignItems="center" justifyContent="center" position="relative">
-          {address && (
+          {/* {address && (
             <Flex
               alignItems="center"
               justifyContent="center"
@@ -67,7 +67,7 @@ export const Avatar = () => {
                 animation={`${spin} infinite 5s linear`}
               />
             </Flex>
-          )}
+          )} */}
           <Image
             borderRadius="full"
             width={{ base: "80%", lg: "full" }}
