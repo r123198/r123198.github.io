@@ -21,7 +21,7 @@ export const Header = () => {
       alignItems="center"
       justifyContent="space-between"
     >
-      <Image src="/file.svg" alt="Rafael" />
+      {/* <Image src="/rafael.png" alt="Rafael" /> */}
 
       {/* <ConnectKitButton accountStatus="avatar" chainStatus="icon" showBalance={false} /> */}
     </Flex>
