@@ -1,6 +1,7 @@
 import { Flex, Image } from "@chakra-ui/react"
 import { ConnectKitButton } from "connectkit"
 import { useEffect, useState } from "react"
+import { getImagePath } from "../utils/imageLoader"
 
 export const Header = () => {
   const [hasMounted, setMounted] = useState(false)
@@ -21,7 +22,7 @@ export const Header = () => {
       alignItems="center"
       justifyContent="space-between"
     >
-      <Image src="/file.svg" alt="Rafael" />
+      <Image src={getImagePath("/file.svg")} alt="Rafael" />
 
       {/* <ConnectKitButton accountStatus="avatar" chainStatus="icon" showBalance={false} /> */}
     </Flex>
