@@ -1,7 +1,6 @@
 import { Text, Heading, GridItem, Image } from "@chakra-ui/react"
 import PropTypes from "prop-types"
 import { Grid } from "./Grid"
-import { getImagePath } from "../utils/imageLoader"
 
 export const Experience = ({ side, title, desc, stack, image, href, ...props }) => (
   <Grid fluid templateColumns="repeat(4, 1fr)" mb={10} {...props}>
@@ -11,7 +10,7 @@ export const Experience = ({ side, title, desc, stack, image, href, ...props }) 
       </Text>
     </GridItem>
     <GridItem colSpan={{ base: 4, sm: 3 }}>
-      {image && <Image width="36px" mb={4} src={getImagePath(image)} alt={title} />}
+      {image && <Image width="36px" mb={4} src={image} alt={title} />}
       <Heading
         as={href ? "a" : "h3"}
         href={href}
@@ -25,7 +24,7 @@ export const Experience = ({ side, title, desc, stack, image, href, ...props }) 
         {href && (
           <Image
             ml={2}
-            src={getImagePath("/arrow-link.svg")}
+            src="/arrow-link.svg"
             alt={`link to ${title}`}
             transform="translateY(1px)"
           />

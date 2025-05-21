@@ -2,7 +2,6 @@ import { Box, Image, Flex, keyframes, useDisclosure } from "@chakra-ui/react"
 import { useEffect, useState } from "react"
 import { useAccount, useEnsName } from "wagmi"
 import { trimAddress } from "../utils/address"
-import { getImagePath } from "../utils/imageLoader"
 import { MintModal } from "./MintModal"
 
 const spin = keyframes`
@@ -63,7 +62,7 @@ export const Avatar = () => {
                 maxWidth="none"
                 position="absolute"
                 width={{ base: "full", lg: "135%" }}
-                src={getImagePath("/blurs.png")}
+                src="/blurs.png"
                 role="presentation"
                 animation={`${spin} infinite 5s linear`}
               />
@@ -72,7 +71,7 @@ export const Avatar = () => {
           <Image
             borderRadius="full"
             width={{ base: "80%", lg: "full" }}
-            src={getImagePath("/meme.png")}
+            src="/meme.png"
             alt="Rafael"
           />
         </Flex>
