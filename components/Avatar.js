@@ -71,7 +71,8 @@ export const Avatar = () => {
           <Image
             borderRadius="full"
             width={{ base: "80%", lg: "full" }}
-            src="/meme.png"
+            // src="/meme.png"
+            src="/profile.webp"
             alt="Rafael"
           />
         </Flex>

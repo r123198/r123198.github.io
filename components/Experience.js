@@ -30,7 +30,7 @@ export const Experience = ({ side, title, desc, stack, image, href, ...props }) 
           />
         )}
       </Heading>
-      {desc && <Text my={2}>{desc}</Text>}
+      {desc && <Text my={2} textAlign="justify">{desc}</Text>}
       {stack && (
         <Text color="white" opacity={0.5}>
           {stack}

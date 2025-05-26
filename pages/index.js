@@ -38,7 +38,7 @@ export default function Home() {
           <Heading as="h2" size="md" mb={2}>
             About
           </Heading>
-          <Text>
+          <Text textAlign="justify">
             Hi, I'm Rafael. I am a passionate software developer with over two years of experience creating innovative mobile and web applications, specializing in Flutter, Vue.js, and backend solutions like Firebase and Laravel. My projects range from AI-powered rice disease detection and real-time COVID-19 tracking to offline-first POS systems and a Filipino Language Chatbot. With a focus on driving impact through efficiency and user-centered design, I aim to build scalable tech solutions that address real-world challenges, particularly in the Philippines.
           </Text>
         </Box>

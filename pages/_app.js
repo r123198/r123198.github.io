@@ -14,8 +14,8 @@ const wagmiConfig = createConfig(
     walletConnectProjectId: "725416c0a4e3389225cf458a96ea7cca",
     appName: "Rafael",
     appDescription: "Rafael Tbudan - Software Developer",
-    appUrl: "https://rafael.xyz",
-    appIcon: "./public/rafael.png",
+    appUrl: "https://rafaeltibudan.xyz",
+    appIcon: "./public/rafael.webp",
   })
 )
 
