@@ -39,7 +39,7 @@ export default function Home() {
             About
           </Heading>
           <Text textAlign="justify">
-            Hi, I'm Rafael. I am a passionate software developer with over two years of experience creating innovative mobile and web applications, specializing in Flutter, Vue.js, and backend solutions like Firebase and Laravel. My projects range from AI-powered rice disease detection and real-time COVID-19 tracking to offline-first POS systems and a Filipino Language Chatbot. With a focus on driving impact through efficiency and user-centered design, I aim to build scalable tech solutions that address real-world challenges, particularly in the Philippines.
+          Hi, I’m Rafael — a software developer and entrepreneur helping businesses streamline operations and grow through smart, scalable tech. With nearly 4 years of experience, I build modern web and mobile solutions using no-code platforms, automation tools, ecommerce systems, and AI integration. Whether it's simplifying workflows or launching digital products faster, I focus on what drives real results for growing teams.
           </Text>
         </Box>
         <Box mb={14}>
