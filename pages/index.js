@@ -51,28 +51,28 @@ export default function Home() {
             href="https://www.jarvisanalytics.com/"
             side="2024"
             title="Jarvis Analytics - Frontend Developer"
-            desc="Dental Dashboard and Data Analytics Platform"
+            desc="Led front-end development at Jarvis Analytics using Vue.js, Angular, and Laravel, delivering key features like the Treatment Presenter and reducing dashboard load times by 27% within 4 months."
             stack="Laravel • VueJS • AngularJS"
           />
           <Experience
             href=" https://play.google.com/store/apps/details?id=com.ecitizenph.mobile&hl=en"
             side="2024"
             title="Ecitizen - Software Engineer"
-            desc="Disaster Preparedness Platform"
+            desc="Developed and deployed a real-time emergency response app and dashboard for Iligan City under a DOST-funded initiative, improving crisis response readiness by 30% through end-to-end implementation."
             stack="Android • iOS • Flutter • Laravel • Google Maps"
           />
           <Experience
             href="https://www.webfuelagency.com/services/"
             side="2024"
             title="Web Fuel Agency - Software Engineer"
-            desc="Education Platform"
-            stack="Android • iOS • Flutter • Swift • Java • AI Integration"
+            desc="Developed Inspired Learning, an AI-powered educational app, using Flutter with BLoC and MVVM architecture. Integrated third-party authentication and Google Ads to enhance user experience and monetization."
+            stack="Android • iOS • Flutter • Swift • Java • AI Integration • Google Ads • Google Authentication • IOS Authentication"
           />
           <Experience
-            href="http://www.ibayad.com"
+            href="https://tlc-fzc.com/"
             side="2023"
-            title="Ibayad - Software Engineer"
-            desc="Financial Platform"
+            title="Telecom Live Content FZC - Software Engineer"
+            desc="Built and optimized REST API integrations connecting mobile apps with core banking systems and third-party financial services, improving system response times by 35%."
             stack="Android • iOS • Flutter • Swift • Java"
           />
           <Experience
@@ -108,22 +108,6 @@ export default function Home() {
             Side Projects
           </Heading>
 
-          {/* <Experience
-            href="https://www.instagram.com/dolenn.bzh"
-            image="/dolenn-single.png"
-            side="ongoing"
-            title="Dolenn - Hot Sauce"
-            desc="Making hot sauces with a friend, made in Brittany with local ingredients."
-            stack="Design • Illustration • Packaging • Cooking"
-          />
-          <Experience
-            href="https://offline.london"
-            image="/offline-favicon.png"
-            side="2024"
-            title="Offline Nostalgia"
-            desc="Generative art project around the offline era. Physical mint."
-            stack="Solidity • IYK Chips • fully onchain"
-          /> */}
           <Experience
             image="/offline.gif"
             href="https://drive.google.com/file/d/1QF5yAqg0mLot79paoj6csbZdCcDkxX8x/view?usp=sharing"
@@ -177,12 +161,12 @@ export default function Home() {
             href="https://foundation.app/@bonhomme?tab=owned"
             mb={4}
           /> */}
-          {/* <Experience
+          <Experience
             side="Twitter"
-            title="@pixel_arts"
-            href="https://twitter.com/pixel_arts"
+            title="@batangZestooo"
+            href="https://x.com/batangZestooo"
             mb={4}
-          /> */}
+          />
         </Box>
       </Box>
     </>
