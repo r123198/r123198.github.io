@@ -167,6 +167,12 @@ export default function Home() {
             href="https://x.com/batangZestooo"
             mb={4}
           />
+          <Experience
+            side="Resume"
+            title="Rafael Tibudan"
+            href="https://drive.google.com/file/d/1zfEvNOZBmn6NKOHb4XG-H_glnGya7E5E/view?usp=sharing"
+            mb={4}
+          />
         </Box>
       </Box>
     </>
