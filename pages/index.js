@@ -109,6 +109,22 @@ export default function Home() {
           </Heading>
 
           <Experience
+            image="/maalam.png"
+            href="https://maalam-lrip.vercel.app/"
+            side="2025"
+            title="Maalam: Manage Smarter. Deliver Faster."
+            desc="Maalam is an agency that provides digital solutions to businesses. It is a platform that allows businesses to manage their operations and deliver their products and services faster."
+            stack="No code • AI Integrations • Workflow Automation"
+          />
+          <Experience
+            image="/offline-favicon.png"
+            href="https://finance-parser-eight.vercel.app/"
+            side="2025"
+            title="Finance Parser"
+            desc="A tool that parses financial documents and extracts the relevant information using DeepSeek AI."
+            stack="NextJS • Vercel • DeepSeek AI"
+          />
+          <Experience
             image="/offline.gif"
             href="https://drive.google.com/file/d/1QF5yAqg0mLot79paoj6csbZdCcDkxX8x/view?usp=sharing"
             side="2022"
