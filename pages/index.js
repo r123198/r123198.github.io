@@ -49,7 +49,7 @@ export default function Home() {
 
           <Experience
             href="https://www.jarvisanalytics.com/"
-            side="2024"
+            side="2022"
             title="Jarvis Analytics - Frontend Developer"
             desc="Led front-end development at Jarvis Analytics using Vue.js, Angular, and Laravel, delivering key features like the Treatment Presenter and reducing dashboard load times by 27% within 4 months."
             stack="Laravel • VueJS • AngularJS"
@@ -70,7 +70,7 @@ export default function Home() {
           />
           <Experience
             href="https://tlc-fzc.com/"
-            side="2023"
+            side="2022"
             title="Telecom Live Content FZC - Software Engineer"
             desc="Built and optimized REST API integrations connecting mobile apps with core banking systems and third-party financial services, improving system response times by 35%."
             stack="Android • iOS • Flutter • Swift • Java"
