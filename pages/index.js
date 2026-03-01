@@ -39,7 +39,7 @@ export default function Home() {
             About
           </Heading>
           <Text textAlign="justify">
-          Hi, I’m Rafael — a software developer and entrepreneur helping businesses streamline operations and grow through smart, scalable tech. With nearly 4 years of experience, I build modern web and mobile solutions using no-code platforms, automation tools, ecommerce systems, and AI integration. Whether it's simplifying workflows or launching digital products faster, I focus on what drives real results for growing teams.
+            Hi, I’m Rafael — a software developer and entrepreneur helping businesses streamline operations and grow through smart, scalable tech. With nearly 4 years of experience, I build modern web and mobile solutions using no-code platforms, automation tools, ecommerce systems, and AI integration. Whether it's simplifying workflows or launching digital products faster, I focus on what drives real results for growing teams.
           </Text>
         </Box>
         <Box mb={14}>
