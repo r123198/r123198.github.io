@@ -23,7 +23,7 @@ export default function Home() {
               <Heading as="h1" size="lg">
                 Rafael Tibudan
               </Heading>
-              <Text>Software Developer</Text>
+              <Text>Flutter & AI Engineer · Mobile + Web · Helping Remote Teams Ship Faster</Text>
               {/* <Link
                 color="white"
                 opacity={0.5}
@@ -39,7 +39,7 @@ export default function Home() {
             About
           </Heading>
           <Text textAlign="justify">
-            Hi, I’m Rafael — a software developer and entrepreneur helping businesses streamline operations and grow through smart, scalable tech. With nearly 4 years of experience, I build modern web and mobile solutions using no-code platforms, automation tools, ecommerce systems, and AI integration. Whether it's simplifying workflows or launching digital products faster, I focus on what drives real results for growing teams.
+          I build production-grade mobile and web apps that actually ship — on time, with clean architecture, and measurable results.
           </Text>
         </Box>
         <Box mb={14}>
@@ -113,7 +113,7 @@ export default function Home() {
             href="https://maalam-lrip.vercel.app/"
             side="2025"
             title="Maalam: Manage Smarter. Deliver Faster."
-            desc="Maalam is an agency that provides digital solutions to businesses. It is a platform that allows businesses to manage their operations and deliver their products and services faster."
+            desc="Founder and CEO. Provides AI automation and no-code solutions to businesses. It is a platform that allows businesses to manage their operations and deliver their products and services faster."
             stack="No code • AI Integrations • Workflow Automation"
           />
           <Experience
