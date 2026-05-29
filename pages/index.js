@@ -62,7 +62,7 @@ export default function Home() {
             stack="Android • iOS • Flutter • Laravel • Google Maps"
           />
           <Experience
-            href="https://www.webfuelagency.com/services/"
+            href="https://play.google.com/store/apps/details?id=com.InspiredLearningSolutions.inspiredLearningApp&hl=en"
             side="2024"
             title="Web Fuel Agency - Software Engineer"
             desc="Developed Inspired Learning, an AI-powered educational app, using Flutter with BLoC and MVVM architecture. Integrated third-party authentication and Google Ads to enhance user experience and monetization."
@@ -73,10 +73,10 @@ export default function Home() {
             side="2022"
             title="Telecom Live Content FZC - Software Engineer"
             desc="Built and optimized REST API integrations connecting mobile apps with core banking systems and third-party financial services, improving system response times by 35%."
-            stack="Android • iOS • Flutter • Swift • Java"
+            stack="Android • iOS • Flutter • Swift • Java • REST API • API Integration • Native Android and iOS Development"
           />
           <Experience
-            href="https://pic-a-talk.com"
+            href="https://play.google.com/store/apps/details?id=com.picatalk&hl=en"
             side="2023"
             title="Pic-A-Talk - Software Developer"
             desc="Frontend Mobile Developer at Pic-a-Talk Adobokashi Inc., engineered and launched major Flutter app features, optimized state management with BLoC and Provider, integrated REST APIs with AWS services, and reduced data latency by 60% through infrastructure migration from Heroku to AWS."
@@ -91,7 +91,7 @@ export default function Home() {
           />
           <Experience
             href="https://msuiit.edu.ph"
-            side="2022 – 2023"
+            side="2022"
             title="MSU Iligan Institute of Technology - Computer Programmer 1"
             desc="Computer Programmer at MSU-IIT, developed and deployed the cross-platform my.Eskwela app with Flutter and Flask, boosting student engagement by 40% and parent involvement by 25%, and implemented in-app messaging to increase parent-teacher interactions by 60%."
             stack="Flutter • JQuery • Flask • PubNub"
