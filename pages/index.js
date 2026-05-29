@@ -113,7 +113,8 @@ export default function Home() {
             href="https://maalam-lrip.vercel.app/"
             side="2025"
             title="Maalam: Manage Smarter. Deliver Faster."
-            desc="Founder and CEO. Provides AI automation and no-code solutions to businesses. It is a platform that allows businesses to manage their operations and deliver their products and services faster."
+            // desc="Founder and CEO. Provides AI automation and no-code solutions to businesses. It is a platform that allows businesses to manage their operations and deliver their products and services faster."
+            desc="Founder. Provides AI automation and no-code solutions to businesses. It is a platform that allows businesses to manage their operations and deliver their products and services faster."
             stack="No code • AI Integrations • Workflow Automation"
           />
           <Experience
