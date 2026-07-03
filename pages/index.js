@@ -107,13 +107,35 @@ export default function Home() {
           <Heading as="h2" size="md" mt={14} mb={10}>
             Side Projects
           </Heading>
-
+          <Experience
+            image="/ROOT.png"
+            href="https://kapeta-eight.vercel.app"
+            side="2026"
+            title="Root - A Curated Coffee Directory in CDO"
+            desc="A curated directory of coffee shops in Cagayan de Oro."
+            stack="NextJS • Tailwind • Lovable • Lovable cloud • shadcnui"
+          />
+          <Experience
+            image="/promptenhancer.png"
+            href="https://prompt-enhancer-project.vercel.app/"
+            side="2026"
+            title="Prompt Enhancer Project"
+            desc="A website that allows users to enhance their prompts for AI models."
+            stack="NextJS • TailwindCSS • OpenRouter"
+          />
+          <Experience
+            image="/scorecard.png"
+            href="https://lovable.dev/preview/uQ4e6zK7ZK76dxquKJJx0BGYevKF28aj"
+            side="2026"
+            title="Dominance Scorecard"
+            desc="A website that allows users to create a scorecard to measure their dominance in different categories."
+            stack="NextJS • Tailwind • Lovable • Lovable cloud • shadcnui"
+          />
           <Experience
             image="/maalam.png"
             href="https://maalam-lrip.vercel.app/"
             side="2025"
             title="Maalam: Manage Smarter. Deliver Faster."
-            // desc="Founder and CEO. Provides AI automation and no-code solutions to businesses. It is a platform that allows businesses to manage their operations and deliver their products and services faster."
             desc="Founder. Provides AI automation and no-code solutions to businesses. It is a platform that allows businesses to manage their operations and deliver their products and services faster."
             stack="No code • AI Integrations • Workflow Automation"
           />
